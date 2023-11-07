@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    width: 960px;
+    margin: 0 auto
+    ;
+    border: 9px brown solid;
+    display:flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    
+
+
+}
+.flex-item{
+    background-color: rgb(66, 164, 203);
+    border: 2px solid black;
+    width: 300px;
+    
+}
